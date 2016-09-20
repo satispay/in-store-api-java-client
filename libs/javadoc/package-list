@@ -1,0 +1,16 @@
+com.satispay.protocore
+com.satispay.protocore.active
+com.satispay.protocore.consts
+com.satispay.protocore.crypto
+com.satispay.protocore.dh
+com.satispay.protocore.dh.beans
+com.satispay.protocore.errors
+com.satispay.protocore.log
+com.satispay.protocore.models.analytics
+com.satispay.protocore.models.generic
+com.satispay.protocore.models.profile
+com.satispay.protocore.models.registration
+com.satispay.protocore.models.transactions
+com.satispay.protocore.persistence
+com.satispay.protocore.session
+com.satispay.protocore.utility
