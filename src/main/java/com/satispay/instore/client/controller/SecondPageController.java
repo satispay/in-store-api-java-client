@@ -9,10 +9,7 @@ import com.satispay.protocore.persistence.MemoryPersistenceManager;
 import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Button;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -32,11 +29,14 @@ public class SecondPageController implements Initializable {
 
     public TextField profileMeInfo;
     public ImageView profileImage;
-    public Button retrieveInfoButton;
     public TableView<TransactionProposal> transactionsTable;
+    public Button retrieveInfoButton;
     public Button pendingTransactions;
     public Button acceptButton;
     public Button refuseButton;
+    public Button historyTransactions;
+    public Button refundButton;
+    public Label result;
 
     private PersistenceProtoCore persistenceProtoCore;
 
@@ -44,15 +44,18 @@ public class SecondPageController implements Initializable {
     public void initialize(URL location, ResourceBundle resources) {
         initTable();
         initRetrieveInfoButton();
+        initPendingTransactionsButton();
+        initTransactionHistoryButton();
         initAcceptButton();
         initRefuseButton();
+        initRefundButton();
 
         persistenceProtoCore = PersistenceProtoCoreClientImpl.getInstance();
     }
 
     private void initTable() {
-        TableColumn<TransactionProposal, String> columnName = new TableColumn<>("Name");
-        columnName.setCellValueFactory(new PropertyValueFactory<>("consumer.name"));
+        TableColumn<TransactionProposal, String> columnName = new TableColumn<>("State");
+        columnName.setCellValueFactory(new PropertyValueFactory<>("state"));
         columnName.setMinWidth(100D);
 
         TableColumn<TransactionProposal, String> amountColumn = new TableColumn<>("Amount");
@@ -100,33 +103,10 @@ public class SecondPageController implements Initializable {
                     );
         });
 
-        pendingTransactions.setOnAction(event -> {
-            Platform.runLater(() -> {
-                transactionsTable.getItems().clear();
-                transactionsTable.refresh();
-            });
-
-            // ==> Here is how the api in store requests are invoked. The Rx Observable pattern is used.
-            // here a re some reference:
-            //  - http://reactivex.io
-            //  - https://github.com/ReactiveX/RxJava
-            persistenceProtoCore
-                    .getTransactionHistory(20, null, "proposed")
-                    .subscribeOn(Schedulers.newThread())
-                    .take(1)
-                    .subscribe(historyTransactionsModel ->
-                            Platform.runLater(() -> {
-                                        transactionsTable.setItems(
-                                                FXCollections.observableList(historyTransactionsModel.getList())
-                                        );
-                                        transactionsTable.refresh();
-                                    }
-                            )
-                    );
-        });
     }
 
     private void initAcceptButton() {
+        acceptButton.setDisable(true);
         acceptButton.setOnAction(event -> {
             TransactionProposal selectedItem = transactionsTable.getSelectionModel().getSelectedItem();
             if (selectedItem != null) {
@@ -143,15 +123,24 @@ public class SecondPageController implements Initializable {
                                 transactionProposal -> {
                                     transactionsTable.getItems().clear();
                                     transactionsTable.refresh();
+
+                                    disableAllButtons();
+                                    result.setText("OK");
                                 },
-                                throwable -> {
-                                }
+                                throwable -> Platform.runLater(() -> result.setText("KO check logs"))
                         );
             }
         });
     }
 
+    private void disableAllButtons() {
+        acceptButton.setDisable(true);
+        refundButton.setDisable(true);
+        refuseButton.setDisable(true);
+    }
+
     private void initRefuseButton() {
+        refuseButton.setDisable(true);
         refuseButton.setOnAction(event -> {
             TransactionProposal selectedItem = transactionsTable.getSelectionModel().getSelectedItem();
             if (selectedItem != null) {
@@ -168,9 +157,104 @@ public class SecondPageController implements Initializable {
                                 transactionProposal -> {
                                     transactionsTable.getItems().clear();
                                     transactionsTable.refresh();
+
+                                    disableAllButtons();
+                                    result.setText("OK");
                                 },
-                                throwable -> {
-                                }
+                                throwable -> Platform.runLater(() -> result.setText("KO check logs"))
+                        );
+            }
+        });
+    }
+
+    private void initPendingTransactionsButton() {
+        pendingTransactions.setOnAction(event -> {
+            clearTable();
+            result.setText("");
+
+            // ==> Here is how the api in store requests are invoked. The Rx Observable pattern is used.
+            // here a re some reference:
+            //  - http://reactivex.io
+            //  - https://github.com/ReactiveX/RxJava
+            persistenceProtoCore
+                    .getTransactionHistory(20, null, "proposed")
+                    .subscribeOn(Schedulers.newThread())
+                    .take(1)
+                    .subscribe(historyTransactionsModel ->
+                            Platform.runLater(() -> {
+                                        acceptButton.setDisable(false);
+                                        refuseButton.setDisable(false);
+                                        refundButton.setDisable(true);
+
+                                        transactionsTable.setItems(
+                                                FXCollections.observableList(historyTransactionsModel.getList())
+                                        );
+                                        transactionsTable.refresh();
+                                    }
+                            )
+                    );
+        });
+    }
+
+    private void clearTable() {
+        Platform.runLater(() -> {
+            transactionsTable.getItems().clear();
+            transactionsTable.refresh();
+        });
+    }
+
+    private void initTransactionHistoryButton() {
+        historyTransactions.setOnAction(event -> {
+            clearTable();
+            result.setText("");
+
+            // ==> Here is how the api in store requests are invoked. The Rx Observable pattern is used.
+            // here a re some reference:
+            //  - http://reactivex.io
+            //  - https://github.com/ReactiveX/RxJava
+            persistenceProtoCore
+                    .getTransactionHistory(20, null, null)
+                    .subscribeOn(Schedulers.newThread())
+                    .take(1)
+                    .subscribe(historyTransactionsModel ->
+                            Platform.runLater(() -> {
+                                        acceptButton.setDisable(true);
+                                        refuseButton.setDisable(true);
+                                        refundButton.setDisable(false);
+
+                                        transactionsTable.setItems(
+                                                FXCollections.observableList(historyTransactionsModel.getList())
+                                        );
+                                        transactionsTable.refresh();
+                                    }
+                            )
+                    );
+        });
+    }
+
+    private void initRefundButton() {
+        refundButton.setDisable(true);
+        refundButton.setOnAction(event -> {
+            TransactionProposal selectedItem = transactionsTable.getSelectionModel().getSelectedItem();
+            if (selectedItem != null) {
+
+                // ==> Here is how the api in store requests are invoked. The Rx Observable pattern is used.
+                // here a re some reference:
+                //  - http://reactivex.io
+                //  - https://github.com/ReactiveX/RxJava
+                persistenceProtoCore
+                        .refundTransaction(selectedItem.getTransactionId())
+                        .take(1)
+                        .subscribeOn(Schedulers.newThread())
+                        .subscribe(
+                                transactionProposal -> {
+                                    transactionsTable.getItems().clear();
+                                    transactionsTable.refresh();
+
+                                    disableAllButtons();
+                                    result.setText("OK");
+                                },
+                                throwable -> Platform.runLater(() -> result.setText("KO check logs"))
                         );
             }
         });
