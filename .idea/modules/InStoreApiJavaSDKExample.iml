@@ -15,17 +15,27 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.11" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.guava:guava:19.0" level="project" />
     <orderEntry type="module-library">
-      <library name="Gradle: protocore-2.0.0.20160920153053">
+      <library name="Gradle: protocore-3.13.8.20160921072438">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/protocore-2.0.0.20160920153053.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../libs/protocore-3.13.8.20160921072438.jar!/" />
         </CLASSES>
-        <JAVADOC>
-          <root url="file://$MODULE_DIR$/../../libs/javadoc" />
-        </JAVADOC>
+        <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
     <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" name="Gradle: io.reactivex:rxjava:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.retrofit2:retrofit:2.0.0-beta4" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.retrofit2:retrofit-mock:2.0.0-beta4" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.retrofit2:converter-gson:2.0.0-beta4" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.retrofit2:adapter-rxjava:2.0.0-beta4" level="project" />
+    <orderEntry type="library" name="Gradle: org.bouncycastle:bcprov-jdk15on:1.52" level="project" />
+    <orderEntry type="library" name="Gradle: org.bouncycastle:bcpkix-jdk15on:1.52" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.4" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:3.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:logging-interceptor:3.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okio:okio:1.6.0" level="project" />
   </component>
 </module>

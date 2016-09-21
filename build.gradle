@@ -9,6 +9,28 @@ repositories {
 }
 
 dependencies {
-    compile files('./libs/protocore-2.0.0.20160920153053.jar')
+    compile files('./libs/protocore-3.13.8.20160921072438.jar')
     testCompile group: 'junit', name: 'junit', version: '4.11'
+
+    // ==> Rx
+    compile 'io.reactivex:rxjava:1.1.0'
+
+    // ==> Retrofit
+    compile 'com.squareup.retrofit2:retrofit:2.0.0-beta4'
+    compile 'com.squareup.retrofit2:retrofit-mock:2.0.0-beta4'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.0-beta4'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.0.0-beta4'
+
+    // ==> Security pack
+    compile 'org.bouncycastle:bcprov-jdk15on:1.52'              // Security pack
+    compile 'org.bouncycastle:bcpkix-jdk15on:1.52'              // Security pack
+
+    // ==> Gson
+    compile 'com.google.code.gson:gson:2.4'
+
+    // ==> OkHttp
+    compile 'com.squareup.okhttp3:okhttp:3.1.2'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.1.2'
+
+    compile 'com.google.guava:guava:19.0'
 }
