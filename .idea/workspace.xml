@@ -2,162 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20e31666-9a4e-4162-bedb-a846a6bf3394" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/protocore-3.13.8.20160921072438.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_19_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_logging_interceptor_3_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_adapter_rxjava_2_0_0_beta4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_0_0_beta4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_0_0_beta4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_mock_2_0_0_beta4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava_1_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bouncycastle_bcpkix_jdk15on_1_52.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bouncycastle_bcprov_jdk15on_1_52.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dh_keys.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/protocore-2.0.0.20160920153053.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/InStoreApiJavaSDKExample.iml" afterPath="$PROJECT_DIR$/.idea/modules/InStoreApiJavaSDKExample.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/allclasses-frame.html" afterPath="$PROJECT_DIR$/libs/javadoc/allclasses-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/allclasses-noframe.html" afterPath="$PROJECT_DIR$/libs/javadoc/allclasses-noframe.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/EndpointConfigEnum.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/EndpointConfigEnum.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/ProtoCoreBuildTypeConfig.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/ProtoCoreBuildTypeConfig.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/ProtoCoreEndpointsConfig.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/ProtoCoreEndpointsConfig.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/ProtoCoreMessage.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/ProtoCoreMessage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/TestMain.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/TestMain.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/active/PersistenceProtoCore.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/active/PersistenceProtoCore.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/active/ProtoCore.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/active/ProtoCore.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/active/ProtoCoreHttpClientProvider.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/active/ProtoCoreHttpClientProvider.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/active/ProtoCoreProvider.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/active/ProtoCoreProvider.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/active/SignatureUtils.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/active/SignatureUtils.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/active/package-frame.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/active/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/active/package-summary.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/active/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/active/package-tree.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/active/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/consts/Certs.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/consts/Certs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/consts/Endpoints.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/consts/Endpoints.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/consts/Keys.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/consts/Keys.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/consts/package-frame.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/consts/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/consts/package-summary.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/consts/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/consts/package-tree.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/consts/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/crypto/Crypto.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/crypto/Crypto.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/crypto/CryptoDH.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/crypto/CryptoDH.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/crypto/CryptoUtils.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/crypto/CryptoUtils.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/crypto/package-frame.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/crypto/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/crypto/package-summary.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/crypto/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/crypto/package-tree.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/crypto/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/AbstractDHService.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/AbstractDHService.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/DH.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/DH.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/DHFlow.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/DHFlow.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/DHKeys.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/DHKeys.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/DHProvider.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/DHProvider.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/DHValues.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/DHValues.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/UptimeMillisProvider.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/UptimeMillisProvider.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/beans/ChallengeRequestBean.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/beans/ChallengeRequestBean.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/beans/ChallengeResponseBean.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/beans/ChallengeResponseBean.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/beans/DHEncryptedRequestBean.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/beans/DHEncryptedRequestBean.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/beans/DHEncryptedResponseBean.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/beans/DHEncryptedResponseBean.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/beans/ExchangeRequestBean.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/beans/ExchangeRequestBean.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/beans/ExchangeResponseBean.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/beans/ExchangeResponseBean.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/beans/ProtoCoreSequenceErrorBean.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/beans/ProtoCoreSequenceErrorBean.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/beans/SequenceBean.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/beans/SequenceBean.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/beans/TokenVerificationRequestBean.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/beans/TokenVerificationRequestBean.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/beans/TokenVerificationResponseBean.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/beans/TokenVerificationResponseBean.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/beans/package-frame.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/beans/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/beans/package-summary.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/beans/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/beans/package-tree.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/beans/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/package-frame.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/package-summary.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/package-tree.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/errors/ProtoCoreError.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/errors/ProtoCoreError.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/errors/ProtoCoreErrorType.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/errors/ProtoCoreErrorType.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/errors/package-frame.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/errors/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/errors/package-summary.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/errors/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/errors/package-tree.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/errors/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/log/ProtoLogger.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/log/ProtoLogger.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/log/package-frame.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/log/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/log/package-summary.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/log/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/log/package-tree.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/log/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/analytics/AppStartedBean.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/analytics/AppStartedBean.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/analytics/package-frame.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/analytics/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/analytics/package-summary.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/analytics/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/analytics/package-tree.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/analytics/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/generic/Address.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/generic/Address.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/generic/Consumer.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/generic/Consumer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/generic/Device.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/generic/Device.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/generic/Location.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/generic/Location.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/generic/Model.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/generic/Model.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/generic/Shop.MobilityType.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/generic/Shop.MobilityType.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/generic/Shop.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/generic/Shop.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/generic/VersionUpdate.VersionStatus.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/generic/VersionUpdate.VersionStatus.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/generic/VersionUpdate.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/generic/VersionUpdate.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/generic/package-frame.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/generic/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/generic/package-summary.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/generic/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/generic/package-tree.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/generic/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/profile/ProfileMe.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/profile/ProfileMe.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/profile/package-frame.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/profile/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/profile/package-summary.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/profile/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/profile/package-tree.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/profile/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/registration/RegistrationBean.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/registration/RegistrationBean.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/registration/package-frame.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/registration/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/registration/package-summary.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/registration/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/registration/package-tree.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/registration/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/transactions/CloseTransaction.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/transactions/CloseTransaction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/transactions/HistoryTransactionsModel.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/transactions/HistoryTransactionsModel.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/transactions/TransactionProposal.TransactionState.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/transactions/TransactionProposal.TransactionState.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/transactions/TransactionProposal.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/transactions/TransactionProposal.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/transactions/TransactionProposalTypeEnum.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/transactions/TransactionProposalTypeEnum.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/transactions/package-frame.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/transactions/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/transactions/package-summary.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/transactions/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/transactions/package-tree.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/models/transactions/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/package-frame.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/package-summary.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/package-tree.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/persistence/MemoryPersistenceManager.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/persistence/MemoryPersistenceManager.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/persistence/PersistenceManager.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/persistence/PersistenceManager.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/persistence/SecurePersistenceManager.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/persistence/SecurePersistenceManager.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/persistence/package-frame.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/persistence/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/persistence/package-summary.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/persistence/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/persistence/package-tree.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/persistence/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/session/SessionManager.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/session/SessionManager.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/session/package-frame.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/session/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/session/package-summary.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/session/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/session/package-tree.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/session/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/utility/DateDeserializer.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/utility/DateDeserializer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/utility/NetworkUtilities.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/utility/NetworkUtilities.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/utility/package-frame.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/utility/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/utility/package-summary.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/utility/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/utility/package-tree.html" afterPath="$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/utility/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/constant-values.html" afterPath="$PROJECT_DIR$/libs/javadoc/constant-values.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/deprecated-list.html" afterPath="$PROJECT_DIR$/libs/javadoc/deprecated-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/help-doc.html" afterPath="$PROJECT_DIR$/libs/javadoc/help-doc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/index-files/index-1.html" afterPath="$PROJECT_DIR$/libs/javadoc/index-files/index-1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/index-files/index-10.html" afterPath="$PROJECT_DIR$/libs/javadoc/index-files/index-10.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/index-files/index-11.html" afterPath="$PROJECT_DIR$/libs/javadoc/index-files/index-11.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/index-files/index-12.html" afterPath="$PROJECT_DIR$/libs/javadoc/index-files/index-12.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/index-files/index-13.html" afterPath="$PROJECT_DIR$/libs/javadoc/index-files/index-13.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/index-files/index-14.html" afterPath="$PROJECT_DIR$/libs/javadoc/index-files/index-14.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/index-files/index-15.html" afterPath="$PROJECT_DIR$/libs/javadoc/index-files/index-15.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/index-files/index-16.html" afterPath="$PROJECT_DIR$/libs/javadoc/index-files/index-16.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/index-files/index-17.html" afterPath="$PROJECT_DIR$/libs/javadoc/index-files/index-17.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/index-files/index-18.html" afterPath="$PROJECT_DIR$/libs/javadoc/index-files/index-18.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/index-files/index-19.html" afterPath="$PROJECT_DIR$/libs/javadoc/index-files/index-19.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/index-files/index-2.html" afterPath="$PROJECT_DIR$/libs/javadoc/index-files/index-2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/index-files/index-3.html" afterPath="$PROJECT_DIR$/libs/javadoc/index-files/index-3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/index-files/index-4.html" afterPath="$PROJECT_DIR$/libs/javadoc/index-files/index-4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/index-files/index-5.html" afterPath="$PROJECT_DIR$/libs/javadoc/index-files/index-5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/index-files/index-6.html" afterPath="$PROJECT_DIR$/libs/javadoc/index-files/index-6.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/index-files/index-7.html" afterPath="$PROJECT_DIR$/libs/javadoc/index-files/index-7.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/index-files/index-8.html" afterPath="$PROJECT_DIR$/libs/javadoc/index-files/index-8.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/index-files/index-9.html" afterPath="$PROJECT_DIR$/libs/javadoc/index-files/index-9.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/index.html" afterPath="$PROJECT_DIR$/libs/javadoc/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/overview-frame.html" afterPath="$PROJECT_DIR$/libs/javadoc/overview-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/overview-summary.html" afterPath="$PROJECT_DIR$/libs/javadoc/overview-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/overview-tree.html" afterPath="$PROJECT_DIR$/libs/javadoc/overview-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/javadoc/serialized-form.html" afterPath="$PROJECT_DIR$/libs/javadoc/serialized-form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dh_keys.json" afterPath="$PROJECT_DIR$/dh_keys.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/satispay/instore/client/controller/FirstPageController.java" afterPath="$PROJECT_DIR$/src/main/java/com/satispay/instore/client/controller/FirstPageController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/layouts/first_page.fxml" afterPath="$PROJECT_DIR$/src/main/resources/layouts/first_page.fxml" />
     </list>
     <ignored path="InStoreApiJavaSDKExample.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -208,11 +55,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FirstPageController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FirstPageController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/satispay/instore/client/controller/FirstPageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="47" column="51" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
+            <state relative-caret-position="255">
+              <caret line="102" column="53" selection-start-line="102" selection-start-column="53" selection-end-line="102" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResponseBody.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.1.2/dca30bc4307110655542933b2bb986dcb6d0e648/okhttp-3.1.2-sources.jar!/okhttp3/ResponseBody.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="107" column="22" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -228,11 +85,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+            <state relative-caret-position="270">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="first_page.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/layouts/first_page.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -574,6 +444,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/satispay/instore/client/client_needs_to_implement_this_classes/SessionManagerClientImpl.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/resources/layouts/first_page.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/satispay/instore/client/controller/FirstPageController.java" />
       </list>
     </option>
   </component>
@@ -586,7 +458,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1920" />
+    <option name="width" value="960" />
     <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -1121,7 +993,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1053" extended-state="6" />
+    <frame x="0" y="23" width="960" height="1053" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1133,14 +1005,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18636848" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18636848" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14164004" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14164004" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1152,6 +1024,35 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39958376" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18636848" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14164004" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1167,11 +1068,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/satispay/instore/client/controller/FirstPageController.java</url>
-          <line>125</line>
-          <properties />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$PROJECT_DIR$/libs/protocore-2.0.0.20160920153053.jar!/com/satispay/protocore/crypto/CryptoUtils.class</url>
           <line>32</line>
@@ -1241,17 +1137,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/layouts/first_page.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -1391,14 +1276,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/satispay/instore/client/controller/FirstPageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="47" column="51" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libs/javadoc/com/satispay/protocore/dh/beans/package-tree.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1429,8 +1306,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        <state relative-caret-position="270">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/layouts/first_page.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.1.2/dca30bc4307110655542933b2bb986dcb6d0e648/okhttp-3.1.2-sources.jar!/okhttp3/ResponseBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="107" column="22" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/satispay/instore/client/controller/FirstPageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="102" column="53" selection-start-line="102" selection-start-column="53" selection-end-line="102" selection-end-column="53" />
           <folding />
         </state>
       </provider>

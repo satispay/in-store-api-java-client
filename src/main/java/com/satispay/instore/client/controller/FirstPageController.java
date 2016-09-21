@@ -1,9 +1,10 @@
 package com.satispay.instore.client.controller;
 
+import com.google.gson.Gson;
 import com.satispay.instore.client.client_needs_to_implement_this_classes.DHFlowClientImpl;
 import com.satispay.instore.client.client_needs_to_implement_this_classes.PersistenceProtoCoreClientImpl;
-import com.google.gson.Gson;
 import com.satispay.protocore.active.PersistenceProtoCore;
+import com.satispay.protocore.active.ProtoCoreHttpClientProvider;
 import com.satispay.protocore.dh.DHFlow;
 import com.satispay.protocore.dh.DHValues;
 import com.satispay.protocore.errors.ProtoCoreError;
@@ -17,7 +18,10 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
+import okhttp3.Request;
+import okhttp3.Response;
 import org.bouncycastle.util.encoders.Base64;
+import rx.Observable;
 import rx.schedulers.Schedulers;
 
 import java.io.File;
@@ -44,6 +48,10 @@ public class FirstPageController implements Initializable {
     public TextArea signatureResponse;
     public Button saveDHKeysButton;
     public Button loadDHKeysButton;
+    public Label userKeyId;
+    public Label kMaster;
+    public Label sequence;
+    public Label storingResult;
 
     private Gson gson = NetworkUtilities.getGson();
 
@@ -70,8 +78,10 @@ public class FirstPageController implements Initializable {
             try {
                 DHValues dhValues = gson.fromJson(new String(Files.readAllBytes(Paths.get(FILE_NAME))), DHValues.class);
                 loadDHValues(dhValues);
+                storingResult.setText("DH VALUES LOADED FROM FILE " + FILE_NAME);
             } catch (IOException e) {
                 e.printStackTrace();
+                storingResult.setText("ERROR LOADING DH VALUES FROM FILE " + FILE_NAME);
             }
         });
     }
@@ -84,14 +94,20 @@ public class FirstPageController implements Initializable {
             // here a re some reference:
             //  - http://reactivex.io
             //  - https://github.com/ReactiveX/RxJava
-            persistenceProtoCore
-                    .testSignature()
+            Observable
+                    .create(subscriber -> {
+                        Request request = new Request.Builder().url("https://staging.authservices.satispay.com/wally-services/protocol/tests/signature").build();
+                        try {
+                            Response response = ProtoCoreHttpClientProvider.getInstance().getProtocoreClientNoSignatureVerify(false, MemoryPersistenceManager.getInstance()).newCall(request).execute();
+                            subscriber.onNext(response.body().string());
+                            subscriber.onCompleted();
+                        } catch (IOException e) {
+                            subscriber.onError(e);
+                        }
+                    })
                     .subscribeOn(Schedulers.newThread())
                     .take(1)
-                    .subscribe(
-                            protoCoreMessage -> Platform.runLater(() -> signatureResponse.setText(protoCoreMessage.toString())),
-                            throwable -> Platform.runLater(() -> signatureResponse.setText(Arrays.toString(throwable.getStackTrace())))
-                    );
+                    .subscribe(string -> signatureResponse.setText(string + ""), throwable -> signatureResponse.setText(Arrays.toString(throwable.getStackTrace())));
         });
     }
 
@@ -121,6 +137,8 @@ public class FirstPageController implements Initializable {
                                     Platform.runLater(() -> tokenResult.setText("VERIFIED"));
                                     saveDHKeysButton.setDisable(false);
                                     loadDHKeysButton.setDisable(true);
+
+                                    fillGraphicalLabelsWithValues();
                                 }),
                                 throwable -> {
                                     if (throwable instanceof ProtoCoreError) {
@@ -145,8 +163,10 @@ public class FirstPageController implements Initializable {
                 fileWriter.write(dhValuesJson);
                 fileWriter.flush();
                 fileWriter.close();
+                storingResult.setText("DH VALUES SAVED IN FILE " + FILE_NAME);
             } catch (IOException e) {
                 e.printStackTrace();
+                storingResult.setText("ERROR SAVING DH VALUES IN FILE " + FILE_NAME);
             }
         });
     }
@@ -171,6 +191,16 @@ public class FirstPageController implements Initializable {
 
         loadDHKeysButton.setDisable(true);
         saveDHKeysButton.setDisable(false);
+        confirmButton.setDisable(true);
+        insertTokenField.setEditable(false);
+
+        fillGraphicalLabelsWithValues();
+    }
+
+    private void fillGraphicalLabelsWithValues() {
+        userKeyId.setText(MemoryPersistenceManager.getInstance().getPersistedData(SecurePersistenceManager.USER_KEY_ID_KEY));
+        kMaster.setText(MemoryPersistenceManager.getInstance().getPersistedData(SecurePersistenceManager.KMASTER_KEY));
+        sequence.setText(MemoryPersistenceManager.getInstance().getPersistedData(SecurePersistenceManager.SEQUENCE_KEY));
     }
 
 }

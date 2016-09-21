@@ -13,18 +13,18 @@
         <VBox HBox.hgrow="ALWAYS">
             <VBox HBox.hgrow="ALWAYS">
                 <padding>
-                    <Insets top="10" bottom="10"/>
+                    <Insets top="5" bottom="5"/>
                 </padding>
-                <Label text="Activation"/>
-                <Label text="The activation is only required once..blah blah"/>
+                <Label text="The activation is only required ONCE. After the activation is completed, it is necessary to save:"/>
+                <Label text="UserKeyId, kMaster and Sequence for later use"/>
                 <Label text="Token"/>
-                <TextField fx:id="insertTokenField" />
+                <TextField fx:id="insertTokenField"/>
                 <Button text="Start DH" fx:id="confirmButton"/>
             </VBox>
 
             <VBox HBox.hgrow="ALWAYS">
                 <padding>
-                    <Insets top="10" bottom="10"/>
+                    <Insets top="5" bottom="5"/>
                 </padding>
                 <HBox>
                     <Label text="SharedSecret: "/>
@@ -38,24 +38,37 @@
                     <Label text="Token verification result: "/>
                     <Label fx:id="tokenResult"/>
                 </HBox>
+                <HBox>
+                    <Label text="User key id: "/>
+                    <Label fx:id="userKeyId"/>
+                </HBox>
+                <HBox>
+                    <Label text="KMaster: "/>
+                    <Label fx:id="kMaster"/>
+                </HBox>
+                <HBox>
+                    <Label text="Sequence: "/>
+                    <Label fx:id="sequence"/>
+                </HBox>
             </VBox>
 
             <VBox HBox.hgrow="ALWAYS">
                 <padding>
-                    <Insets top="10" bottom="10"/>
+                    <Insets top="5" bottom="5"/>
                 </padding>
                 <Button fx:id="testSignatureButton" text="Test signature"/>
-                <TextArea fx:id="signatureResponse" editable="false" maxHeight="100"/>
+                <TextArea fx:id="signatureResponse" editable="false" maxHeight="50"/>
             </VBox>
 
             <VBox HBox.hgrow="ALWAYS">
                 <padding>
-                    <Insets top="10" bottom="10"/>
+                    <Insets top="5" bottom="5"/>
                 </padding>
                 <HBox>
                     <Button text="Save DH keys on Json file" fx:id="saveDHKeysButton"/>
                     <Button text="Load DH keys on Json file" fx:id="loadDHKeysButton"/>
                 </HBox>
+                <Label fx:id="storingResult"/>
             </VBox>
         </VBox>
 
