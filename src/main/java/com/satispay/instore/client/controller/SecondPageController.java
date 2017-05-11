@@ -122,13 +122,13 @@ public class SecondPageController implements Initializable {
                         .take(1)
                         .subscribeOn(Schedulers.newThread())
                         .subscribe(
-                                transactionProposal -> {
+                                transactionProposal -> Platform.runLater(() -> {
                                     transactionsTable.getItems().clear();
                                     transactionsTable.refresh();
 
                                     disableAllButtons();
                                     result.setText("OK");
-                                },
+                                }),
                                 throwable -> Platform.runLater(() -> result.setText("KO check logs"))
                         );
             }
@@ -156,13 +156,13 @@ public class SecondPageController implements Initializable {
                         .take(1)
                         .subscribeOn(Schedulers.newThread())
                         .subscribe(
-                                transactionProposal -> {
+                                transactionProposal -> Platform.runLater(() -> {
                                     transactionsTable.getItems().clear();
                                     transactionsTable.refresh();
 
                                     disableAllButtons();
                                     result.setText("OK");
-                                },
+                                }),
                                 throwable -> Platform.runLater(() -> result.setText("KO check logs"))
                         );
             }
@@ -249,13 +249,13 @@ public class SecondPageController implements Initializable {
                         .take(1)
                         .subscribeOn(Schedulers.newThread())
                         .subscribe(
-                                transactionProposal -> {
+                                transactionProposal -> Platform.runLater(() -> {
                                     transactionsTable.getItems().clear();
                                     transactionsTable.refresh();
 
                                     disableAllButtons();
                                     result.setText("OK");
-                                },
+                                }),
                                 throwable -> Platform.runLater(() -> result.setText("KO check logs"))
                         );
             }
