@@ -22,6 +22,8 @@ import java.net.URL;
 import java.util.Arrays;
 import java.util.ResourceBundle;
 
+import static com.satispay.instore.client.InStoreApiClientApplication.SDK_DEVICE_INFO;
+
 /**
  * --> Created by domenicovisconti on 19/09/16.
  */
@@ -93,7 +95,7 @@ public class SecondPageController implements Initializable {
 
                                 try {
                                     Request request = new Request.Builder().url(new URL(profileMe.getShop().getImageUrl())).build();
-                                    Response response = ProtoCoreHttpClientProvider.getInstance().getProtocoreClientNoSignatureVerify(false, MemoryPersistenceManager.getInstance()).newCall(request).execute();
+                                    Response response = ProtoCoreHttpClientProvider.getInstance().getProtocoreClientNoSignatureVerify(false, MemoryPersistenceManager.getInstance(), SDK_DEVICE_INFO).newCall(request).execute();
 
                                     profileImage.setImage(new Image(response.body().byteStream(), 70, 70, false, false));
                                 } catch (IOException e) {

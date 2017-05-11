@@ -5,6 +5,7 @@ import com.satispay.instore.client.client_needs_to_implement_this_classes.DHFlow
 import com.satispay.instore.client.client_needs_to_implement_this_classes.PersistenceProtoCoreClientImpl;
 import com.satispay.protocore.active.PersistenceProtoCore;
 import com.satispay.protocore.active.ProtoCoreHttpClientProvider;
+import com.satispay.protocore.active.SdkDeviceInfo;
 import com.satispay.protocore.dh.DHFlow;
 import com.satispay.protocore.dh.DHValues;
 import com.satispay.protocore.errors.ProtoCoreError;
@@ -32,6 +33,8 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.ResourceBundle;
+
+import static com.satispay.instore.client.InStoreApiClientApplication.SDK_DEVICE_INFO;
 
 /**
  * --> Created by domenicovisconti on 15/09/16.
@@ -98,7 +101,7 @@ public class FirstPageController implements Initializable {
                     .create(subscriber -> {
                         Request request = new Request.Builder().url("https://staging.authservices.satispay.com/wally-services/protocol/tests/signature").build();
                         try {
-                            Response response = ProtoCoreHttpClientProvider.getInstance().getProtocoreClientNoSignatureVerify(false, MemoryPersistenceManager.getInstance()).newCall(request).execute();
+                            Response response = ProtoCoreHttpClientProvider.getInstance().getProtocoreClientNoSignatureVerify(false, MemoryPersistenceManager.getInstance(), SDK_DEVICE_INFO).newCall(request).execute();
                             subscriber.onNext(response.body().string());
                             subscriber.onCompleted();
                         } catch (IOException e) {

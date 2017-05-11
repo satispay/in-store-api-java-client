@@ -1,5 +1,6 @@
 package com.satispay.instore.client;
 
+import com.satispay.protocore.active.SdkDeviceInfo;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -15,6 +16,17 @@ import java.util.ResourceBundle;
  * --> Created by domenicovisconti on 15/09/16.
  */
 public class InStoreApiClientApplication extends Application {
+
+    // ==> this object is used to pass some implementor info
+    public final static SdkDeviceInfo SDK_DEVICE_INFO = new SdkDeviceInfo(
+            "OIOI",
+            "OIOI",
+            "",
+            "",
+            "",
+            "",
+            ""
+    );
 
     public void start(Stage primaryStage) throws Exception {
         URL resource = getClass().getClassLoader().getResource("layouts/home_page.fxml");

@@ -1,12 +1,16 @@
 package com.satispay.instore.client.client_needs_to_implement_this_classes;
 
+import com.satispay.instore.client.InStoreApiClientApplication;
+import com.satispay.protocore.ProtoCoreMessage;
 import com.satispay.protocore.active.PersistenceProtoCore;
 import com.satispay.protocore.active.ProtoCoreProvider;
+import com.satispay.protocore.active.SdkDeviceInfo;
 import com.satispay.protocore.models.transactions.TransactionProposal;
 import com.satispay.protocore.persistence.MemoryPersistenceManager;
 import com.satispay.protocore.persistence.PersistenceManager;
 import com.satispay.protocore.persistence.SecurePersistenceManager;
 import com.satispay.protocore.session.SessionManager;
+import rx.Observable;
 
 import java.util.ArrayList;
 
@@ -62,7 +66,16 @@ public class PersistenceProtoCoreClientImpl implements PersistenceProtoCore {
                 return SessionManagerClientImpl.getInstance();
             }
 
+            @Override
+            public SdkDeviceInfo getSdkDeviceInfo() {
+                return InStoreApiClientApplication.SDK_DEVICE_INFO;
+            }
+
         };
     }
 
+    @Override
+    public Observable<ProtoCoreMessage> testSignature() {
+        return null;
+    }
 }
