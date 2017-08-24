@@ -15,6 +15,25 @@ https://s3-eu-west-1.amazonaws.com/docs.satispay.com/index.html#instore-api
 
 To run the example project, clone the repository, sync the gradle project and run InStoreApiClientApplication.
 
+## Environments (Production vs Sandbox)
+
+This sample use as default the Sandbox Environment (called "staging").
+
+### Switch between environments
+
+- Check environments available in libs dir, [or click here](libs).
+- Import the latest version in `build.gradle`[ ], [for example](build.gradle):
+
+```
+    compile files('./libs/protocore-staging-3.13.8.20170824100202.jar')
+```
+
+or
+
+```
+    compile files('./libs/protocore-prod-3.13.8.20170824101448.jar')
+```
+
 ## License
 
     Copyright 2016 Satispay SpA.
