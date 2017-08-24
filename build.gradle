@@ -9,7 +9,7 @@ repositories {
 }
 
 dependencies {
-    compile files('./libs/protocore-3.13.8.20170511104258.jar')
+    compile files('./libs/protocore-staging-3.13.8.20170824100202.jar')
     testCompile group: 'junit', name: 'junit', version: '4.11'
 
     // ==> Rx

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/InStoreApiJavaSDKExample.iml" filepath="$PROJECT_DIR$/.idea/modules/InStoreApiJavaSDKExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/in-store-api-java-client.iml" filepath="$PROJECT_DIR$/.idea/modules/in-store-api-java-client.iml" />
     </modules>
   </component>
 </project>

@@ -123,6 +123,8 @@ public class SecondPageController implements Initializable {
                         .subscribeOn(Schedulers.newThread())
                         .subscribe(
                                 transactionProposal -> Platform.runLater(() -> {
+                                    transactionProposal.getStateOwnership();
+
                                     transactionsTable.getItems().clear();
                                     transactionsTable.refresh();
 
