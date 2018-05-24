@@ -1,26 +1,21 @@
-# in-store-api-java-client
+# DEPRECATED!
 
-## Requirements
+Use the new repository: https://github.com/satispay/in-store-api-java-sdk
 
-Java version ≥ 1.8
-
-## Description
+## Read more
 
 This project provides an example JavaFX application to interact with the Satispay in store API.
 More information about the API can be retrived in this documentation: 
 
 https://s3-eu-west-1.amazonaws.com/docs.satispay.com/index.html#instore-api
 
-## More info
+
+# NOTE: DO NOT USE FOR NEW PROJECT!
+
+## Setup:
 
 To run the example project, clone the repository, sync the gradle project and run InStoreApiClientApplication.
-
-## Environments (Production vs Sandbox)
-
 This sample use as default the Sandbox Environment (called "staging").
-
-### Switch between environments
-
 - Check environments available in libs dir, [or click here](libs).
 - Import the latest version in `build.gradle`[ ], [for example](build.gradle):
 
